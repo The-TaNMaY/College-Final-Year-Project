@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-image: url(/resources/img/signup_bac.png);
+   /* background-repeat: no-repeat;*/
+    //*background-size:cover;*/
+    
+}
+button{
+    width: 250px;
+    height: 50px;
+    background-color:black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight:600;
+    cursor: pointer;
+    outline: none;
+
+
+}
+p{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    
+    /*margin-top: 20px;
+    margin-bottom: 20px;*/
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+input{
+    width: 350px;
+    height: 15px;
+    border-radius: 40px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+}
+h1{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+label {
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.head{
+    margin-top: 100px;
+}
+.warpper{
+    margin-top: 20px;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+#box{
+    width: 10px;
+    height: 10px;
+}
+#too{
+    margin-right: 255px;
+    
+}
+#tom{
+    margin-right: 272px;
+}
+#ton{
+    margin-right: 260px;
+}
