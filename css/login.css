@@ -6,6 +6,9 @@
 }
 body{
     background-image: url(/resources/img/login_bac.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 h1{
     color: white;
@@ -52,7 +55,7 @@ button{
     margin-top: 100px;
 }
 .warpper{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 #forgt{
     cursor: pointer;
@@ -60,12 +63,12 @@ button{
     font-weight: 600;
     color:black;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 250px;
 }
 #ema{
-    margin-right: 295px;
+    margin-right: 270px;
 }
 #emal{
-    margin-right: 280px;
+    margin-right: 260px;
 }

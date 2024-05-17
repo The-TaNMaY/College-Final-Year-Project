@@ -7,8 +7,9 @@
 }
 body{
     background-image: url(/resources/img/signup_bac.png);
-   /* background-repeat: no-repeat;*/
-    //*background-size:cover;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 button{
