@@ -13,7 +13,7 @@ header{
    
 }
 body{
-    background-color:white;
+    background-color:whitesmoke;
 }
 button{
     color: whitesmoke;
@@ -28,9 +28,11 @@ a{
     cursor: pointer;
     
 }
-#logo{
-    font-size: 32px;
-    font-weight: 800;
+.logo {
+    width: 200px;  
+    height: 55px;
+    border-radius: 20px;
+    background-color: transparent;
 }
 
 .main{
@@ -83,8 +85,6 @@ a{
     max-width: 100%;
     height: auto;
 }
-
-
 
 
 

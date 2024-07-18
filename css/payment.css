@@ -9,6 +9,7 @@ header{
     align-items: center;
     padding: 20px 50px;
     
+    
    
 }
 body{
@@ -25,23 +26,54 @@ a{
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
-}
-#logo{
-    font-size: 32px;
-    font-weight: 800;
-}
-footer{
-    display: flex;
     
-    
+}
+.logo-container {
+    display: inline-block;
+}
 
+.logo {
+    width: 200px;  
+    height: 55px;
+    border-radius: 20px;
+    background-color: transparent;
+}
 
-} 
 .main{
     width: 1400px;
     margin-left: 100px;
+} /*from here header css*/
+
+
+
+
+/*payment css start*/
+.head{
+    
+    font-weight: 600;
+    color:black;
 }
-/*from here header css*/
+#t_t{
+    color: rgb(105, 105, 104);
+}
+.i_input{
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color: whitesmoke;
+}
+
+#too{
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*footer css*/
 footer{
     display: flex;
     background-color: rgb(106, 106, 236);
@@ -108,8 +140,3 @@ h3{
 .social-media li a:hover img {
     opacity: 0.7; /* Decrease opacity on hover */
 } /*here footer css*/
-
-/*here start body css */
-h1{
-    text-align: center;
-}
